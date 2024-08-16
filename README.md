@@ -16,21 +16,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The project is Password Manage app that saves your password in MongoDB through api routes.A user needs to login or sign up for a acount if user doesnt already have an account 
+![localhost](https://github.com/user-attachments/assets/dc0636d2-2de1-4df8-a2f8-f006c190db52)
+The Login page and Sign up pages are designed to verify if user already exits or if a user exits then he must enter both email and password correctly to see all the password user has saved throught the app.
+![login](https://github.com/user-attachments/assets/635a8bd9-e816-411e-890e-4a23cb0dda3c)
+![signup](https://github.com/user-attachments/assets/76592562-4bf0-4276-932d-1dd7684fe862)
+After logging in or making a new account the user is directed towards a home page where user can save and manage password of different websites with username and password and can delete and edit them also.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![home](https://github.com/user-attachments/assets/af8af41a-04c0-413d-a453-f8479bb7a70a)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
